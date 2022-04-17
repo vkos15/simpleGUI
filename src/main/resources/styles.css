@@ -1,0 +1,30 @@
+.button {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+ -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+ }
+
+
+.backgroundColor {
+    -fx-background-color:#AED6DC;
+
+}
+
+.list-cell:filled:selected:focused {
+    -fx-background-color: #a8dae2;
+    -fx-text-fill: #000000;
+}
+
+
+
+.list-cell:filled:hover {
+    -fx-background-color: #AED6DC;
+
+}
+
+
